@@ -1,0 +1,15 @@
+{
+  message: 'c:\\Users\\Pepe\\Desktop\\Practicas Platzi\\NodeJS\\platzi-lab-nodejs-auth\\logs',
+  level: 'info',
+  timestamp: '2023-07-18T01:09:19.522Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-21T13:20:10.989Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-21T13:20:13.699Z'
+}

@@ -1,0 +1,30 @@
+{
+  "name": "platzi-lab-nodejs-auth",
+  "version": "0.1.0",
+  "description": "Laboratorio de Platzi: Node.js Auth",
+  "author": "@jonalvarezz",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint demos/src/**",
+    "lint:fix": "eslint demos/src/** --fix"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "workspaces": [
+    "api",
+    "frontend"
+  ],
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.6.1",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.1",
+    "winston": "^3.10.0"
+  }
+}
