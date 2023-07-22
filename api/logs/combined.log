@@ -1,0 +1,55 @@
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-18T01:23:33.687Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-18T01:23:35.359Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-18T01:23:56.234Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-18T01:23:57.808Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-22T15:33:09.513Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-22T15:33:11.053Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-22T15:34:11.668Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-22T15:34:13.348Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-22T15:36:17.463Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-22T15:36:19.040Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-22T15:47:47.232Z'
+}
