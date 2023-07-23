@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 import Mongoose from 'mongoose';
 import logger from './utils/logger/winston.js';

@@ -53,3 +53,543 @@
   level: 'info',
   timestamp: '2023-07-22T15:47:47.232Z'
 }
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:14:23.207Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:14:25.081Z'
+}
+{
+  message: 'jwt expired',
+  level: 'error',
+  timestamp: '2023-07-23T21:14:50.774Z'
+}
+{
+  message: 'Hash realizado exitosamente',
+  level: 'info',
+  timestamp: '2023-07-23T21:15:31.495Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T21:15:58.476Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T21:16:06.351Z'
+}
+{
+  message: 'jwt malformed',
+  level: 'error',
+  timestamp: '2023-07-23T21:16:26.349Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T21:16:32.638Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T21:16:36.969Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:16:56.494Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:16:58.183Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:17:07.499Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:17:09.713Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:30:26.416Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:30:28.119Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:31:46.333Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:31:49.062Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:42:45.765Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:42:47.404Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:44:15.070Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:44:16.702Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:44:29.317Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:44:30.789Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:47:27.990Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:47:29.605Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:48:04.214Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:48:31.163Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:48:32.871Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:48:34.634Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:49:20.472Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T21:50:04.472Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T21:50:06.111Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:50:08.156Z'
+}
+{
+  message: 'jwt expired',
+  level: 'error',
+  timestamp: '2023-07-23T21:50:41.967Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T21:50:56.106Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T21:51:00.842Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:51:26.855Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:02:53.167Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:02:54.893Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:03:03.238Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:03:04.787Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:04:34.595Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:04:36.221Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T22:04:38.865Z'
+}
+{
+  message: 'Hash realizado exitosamente',
+  level: 'info',
+  timestamp: '2023-07-23T22:04:57.133Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T22:05:21.579Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:06:08.386Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:06:10.050Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:06:16.735Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:06:18.368Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:09:09.470Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:09:11.095Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:09:27.127Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:09:28.635Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:10:46.231Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:10:47.899Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:10:57.833Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:10:59.341Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:12:05.384Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:12:06.983Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:13:08.682Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:13:10.356Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:13:24.237Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:13:25.751Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:14:02.356Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:14:03.955Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:16:26.458Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:16:28.051Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:16:38.924Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:16:40.379Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:16:48.009Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:16:49.582Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:18:21.317Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:18:22.955Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:34:09.600Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:34:11.194Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:50:01.048Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:50:02.680Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:51:49.678Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:51:51.208Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:53:10.281Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:53:11.876Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T22:53:45.780Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mark',
+  level: 'info',
+  timestamp: '2023-07-23T22:53:46.237Z'
+}
+{
+  message: '[profileUpdateRouter] Actualizacion correcta del Profile del usuario mark.',
+  level: 'info',
+  timestamp: '2023-07-23T22:53:46.240Z'
+}
+{
+  message: 'Recuperacion de la informacion de la JWT exitosa',
+  level: 'info',
+  timestamp: '2023-07-23T22:54:02.754Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:54:32.521Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:54:34.081Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:54:54.265Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:54:55.839Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:56:35.830Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:56:37.423Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:57:57.626Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:57:59.283Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T22:58:30.784Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T22:58:32.310Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T23:01:22.172Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T23:01:24.012Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T23:01:41.954Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T23:01:43.489Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:06.738Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:08.329Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:22.015Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:23.589Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:36.215Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:37.729Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:56.761Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-07-23T23:02:58.367Z'
+}

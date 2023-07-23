@@ -1,8 +1,9 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import 'dotenv/config';
 
 const config = {
   mongo: {
-    url: process.env.DATABASE_URL
+    url: process.env.DATABASE_URL,
   },
 
   jwt: {

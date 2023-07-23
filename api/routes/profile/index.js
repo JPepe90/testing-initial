@@ -1,3 +1,5 @@
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable import/extensions */
 import { Router } from 'express';
 
 import { deleteUser } from './delete-profile.js';

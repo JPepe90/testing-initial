@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 import { Router } from 'express';
 import { body, validationResult } from 'express-validator';

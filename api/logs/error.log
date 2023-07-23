@@ -1,0 +1,40 @@
+{
+  message: 'jwt expired',
+  level: 'error',
+  timestamp: '2023-07-23T21:14:50.774Z'
+}
+{
+  message: 'jwt malformed',
+  level: 'error',
+  timestamp: '2023-07-23T21:16:26.349Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:48:04.214Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:48:34.634Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:49:20.472Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:50:08.156Z'
+}
+{
+  message: 'jwt expired',
+  level: 'error',
+  timestamp: '2023-07-23T21:50:41.967Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-07-23T21:51:26.855Z'
+}

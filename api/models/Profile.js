@@ -21,7 +21,7 @@ export const ProfileSchema = new Mongoose.Schema(
       required: false,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 export const ProfileModel = Mongoose.model('profile', ProfileSchema);

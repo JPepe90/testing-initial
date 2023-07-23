@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-extraneous-dependencies */
 import 'dotenv/config';
 import { app } from './app.js';
 import { connect as db } from './database.js';

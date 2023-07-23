@@ -1,8 +1,11 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/prefer-default-export */
 import express from 'express';
 import cors from 'cors';
 import { signUp } from './routes/sign-up.js';
 import { login } from './routes/login.js';
 import { profile } from './routes/profile/index.js';
+import { profiles } from './routes/view-profiles.js';
 import authenticate from './utils/auth/authentication.js';
 
 export const app = express();
@@ -19,6 +22,7 @@ app.use('/api/v1/sign-up', signUp);
 app.use('/api/v1/login', login);
 // @todo: completar las rutas de profile
 app.use('/api/v1/profile', authenticate({ throwOnError: true }), profile);
+app.use('/api/v1/profiles', profiles);
 
 app.get('/', async (req, res) => {
   res.send('Platzi laboratio Autenticación con Node.js');
