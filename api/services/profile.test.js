@@ -89,7 +89,8 @@ describe('Test for Profile Service', () => {
       // Assert
       expect(users.length).toEqual(5);
       expect(spyGetAll).toHaveBeenCalled();
-      // expect(spyGetAll).toHaveBeenCalledWith({});
+      expect(spyGetAll).toHaveBeenCalledTimes(1);
+      // expect(spyGetAll).toHaveBeenCalledWith({}); // NOT WORKING
     });
   }, 10000);
 
@@ -109,6 +110,9 @@ describe('Test for Profile Service', () => {
       delete data._id;
       // Assert
       expect(verifier).toEqual(data);
+      expect(spyGetAll).toHaveBeenCalled();
+      expect(spyGetAll).toHaveBeenCalledTimes(1);
+      // expect(spyGetAll).toHaveBeenCalledWith('profiles', { username: 'jjpepe' }); // NOT WORKING
     });
 
     test('Resolve not found', async () => {
