@@ -1,5 +1,9 @@
-import bcrypt from 'bcryptjs';
-import logger from '../logger/winston.js';
+// import bcrypt from 'bcryptjs';
+// import logger from '../logger/winston.js';
+
+// REQUIRE
+const bcrypt = require('bcryptjs');
+const logger = require('../logger/winston');
 
 const compararHash = (crudo, hash) => {
   if (!crudo || !hash) {
@@ -9,4 +13,5 @@ const compararHash = (crudo, hash) => {
   return bcrypt.compareSync(crudo, hash);
 };
 
-export default compararHash;
+// export default compararHash;
+module.exports = compararHash;

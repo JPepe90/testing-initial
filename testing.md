@@ -221,3 +221,24 @@ Conceptos para aplicar las metodologias:
 ### Pruebas Unitarias
 
 Todas las dependencias se emulan para representar su comportamiento. El concepto de unidad puede depender de muchos factores.
+
+#### Coverage Test
+El reporte de covertura de nuestras pruebas. Desde Jest, en la terminal:
+
+>> npm run test -- --coverage
+
+nos devuelve un reporte en formato html con el listado de lo que no tiene covertura.
+
+#### Mockin, Stub y Doubles
+
+- Dummy: Datos ficticios usados para rellenar informacion. Por ejemplo metodos que nos pide algun parametro.
+
+- Fake: Simulan un objeto real y sirven para suplantar ciertos datos y comportamientos. Por ejemplo un usuario fake, su token, roles, etc.
+
+- Stubs: Proveen respuestas preparadas y se pueden llamar durante el test para simular su comportamiento. Por ejemplo aplicaciones de tercero como apis de clima o OAuth.
+
+- Spies: Pueden ser Stub pero puedo recolectar informacion de como fue llamado ese metodo para hacer pruebas de caja blanca.
+
+- Mocks: Stubs + Spies, a veces pueden estar pre-programados. Por ejemplo en una llamada a 3ro se usa una llamada mockeada.
+
+

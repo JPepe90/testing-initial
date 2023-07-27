@@ -1,9 +1,14 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
-import { ProfileModel } from '../models/Profile.js';
-import logger from '../utils/logger/winston.js';
+// import { ProfileModel } from '../models/Profile.js';
+// import logger from '../utils/logger/winston.js';
 
-export const profileService = {};
+// REQUIRE
+const { ProfileModel } = require('../models/Profile.js');
+const logger = require('../utils/logger/winston.js');
+
+// export const profileService = {};
+const profileService = {};
 
 profileService.getAll = async () => {
   const data = await ProfileModel.find({});
@@ -43,7 +48,9 @@ profileService.update = async (userName, data) => {
 };
 
 profileService.delete = async (userName) => {
-  await ProfileModel.deleteOne({ username: userName });
+  const result = await ProfileModel.deleteOne({ username: userName });
 
-  return true;
+  return result;
 };
+
+module.exports = profileService;

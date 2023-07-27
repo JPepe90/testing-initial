@@ -1,9 +1,13 @@
-import { createLogger, format, transports } from 'winston';
-import path from 'path';
+// import { createLogger, format, transports } from 'winston';
+// import path from 'path';
+
+// REQUIRE
+const { createLogger, format, transports } = require('winston');
+const path = require('path');
 
 const logsPath = path.resolve('logs');
-const errorFile = logsPath + '\\error.log';
-const infoFile = logsPath + '\\combined.log';
+const errorFile = `${logsPath}\\error.log`;
+const infoFile = `${logsPath}\\combined.log`;
 
 const logger = createLogger({
   level: 'info',
@@ -23,4 +27,5 @@ const logger = createLogger({
 // logger.debug({message: 'mensaje'});
 // logger.silly({message: 'mensaje'});
 
-export default logger;
+// export default logger;
+module.exports = logger;

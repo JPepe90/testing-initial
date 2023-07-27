@@ -38,3 +38,13 @@
   level: 'error',
   timestamp: '2023-07-23T21:51:26.855Z'
 }
+{
+  message: '[signIn]: TypeError: ProfileModel.create is not a function',
+  level: 'error',
+  timestamp: '2023-07-24T01:12:26.282Z'
+}
+{
+  message: "[view Profile]: TypeError: Cannot read properties of undefined (reading 'get')",
+  level: 'error',
+  timestamp: '2023-07-24T01:15:07.849Z'
+}

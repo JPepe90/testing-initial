@@ -1,6 +1,11 @@
-import jwtVerify from '../jwt/verify.js';
-import { UserModel } from '../../models/User.js';
-import logger from '../logger/winston.js';
+// import jwtVerify from '../jwt/verify.js';
+// import { UserModel } from '../../models/User.js';
+// import logger from '../logger/winston.js';
+
+// REQUIRE
+const jwtVerify = require('../jwt/verify');
+const { UserModel } = require('../../models/User');
+const logger = require('../logger/winston');
 
 const defaultOptions = {
   throwOnError: true,
@@ -40,4 +45,5 @@ const authenticate = (options) => async (req, res, next) => {
   }
 };
 
-export default authenticate;
+// export default authenticate;
+module.exports = authenticate;

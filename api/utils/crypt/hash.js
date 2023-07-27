@@ -1,7 +1,12 @@
-import bcrypt from 'bcryptjs';
-import logger from '../logger/winston.js';
+// import bcrypt from 'bcryptjs';
+// import logger from '../logger/winston.js';
 
-export default function encriptarPw(info, saltos = false) {
+// REQUIRE
+const bcrypt = require('bcryptjs');
+const logger = require('../logger/winston');
+
+// export default function encriptarPw(info, saltos = false) {
+function encriptarPw(info, saltos = false) {
   if (!info) {
     logger.error({ message: 'No se recibio ninguna apw para hashear' });
     return false;
@@ -19,3 +24,5 @@ export default function encriptarPw(info, saltos = false) {
 
   return hash;
 }
+
+module.exports = encriptarPw;

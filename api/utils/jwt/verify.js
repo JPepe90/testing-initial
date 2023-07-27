@@ -1,6 +1,11 @@
-import jwt from 'jsonwebtoken';
-import config from '../../config.js';
-import logger from '../logger/winston.js';
+// import jwt from 'jsonwebtoken';
+// import config from '../../config.js';
+// import logger from '../logger/winston.js';
+
+// REQUIRE
+const jwt = require('jsonwebtoken');
+const config = require('../../config');
+const logger = require('../logger/winston');
 
 async function jwtVerify(header) {
   const headerData = header.split(' ');
@@ -16,4 +21,5 @@ async function jwtVerify(header) {
   return decoded;
 }
 
-export default jwtVerify;
+// export default jwtVerify;
+module.exports = jwtVerify;

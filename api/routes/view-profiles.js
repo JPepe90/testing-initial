@@ -1,11 +1,17 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable arrow-body-style */
-import { Router } from 'express';
-import { profileService } from '../services/profiles.js';
-import logger from '../utils/logger/winston.js';
+// import { Router } from 'express';
+// import { profileService } from '../services/profiles.js';
+// import logger from '../utils/logger/winston.js';
 
-export const profiles = Router();
+// REQUIRE
+const express = require('express');
+const { profileService } = require('../services/profiles.js');
+const logger = require('../utils/logger/winston.js');
+
+// export const profiles = Router();
+const profiles = express.Router();
 
 profiles.get(
   '/',
@@ -35,3 +41,5 @@ profiles.get(
     return true;
   },
 );
+
+module.exports = profiles;

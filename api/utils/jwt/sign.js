@@ -1,6 +1,11 @@
-import jwt from 'jsonwebtoken';
-import config from '../../config.js';
-import logger from '../logger/winston.js';
+// import jwt from 'jsonwebtoken';
+// import config from '../../config.js';
+// import logger from '../logger/winston.js';
+
+// REQUIRE
+const jwt = require('jsonwebtoken');
+const config = require('../../config');
+const logger = require('../logger/winston');
 
 const jwtSign = (payload) => {
   if (!payload) {
@@ -11,4 +16,5 @@ const jwtSign = (payload) => {
   return jwt.sign(payload, config.jwt.secret, { expiresIn: '15m' });
 };
 
-export default jwtSign;
+// export default jwtSign;
+module.exports = jwtSign;

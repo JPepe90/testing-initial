@@ -1,14 +1,20 @@
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable import/extensions */
-import { Router } from 'express';
-import {
-  body, check, header, validationResult,
-} from 'express-validator';
-import { UserModel } from '../../models/User.js';
-import { profileService } from '../../services/profiles.js';
-import logger from '../../utils/logger/winston.js';
+// import { Router } from 'express';
+// import { body, check, header, validationResult } from 'express-validator';
+// import { UserModel } from '../../models/User.js';
+// import { profileService } from '../../services/profiles.js';
+// import logger from '../../utils/logger/winston.js';
 
-export const deleteUser = Router();
+// REQUIRE
+const express = require('express');
+const { body, check, header, validationResult } = require('express-validator');
+const { UserModel } = require('../../models/User.js');
+const profileService = require('../../services/profiles.js');
+const logger = require('../../utils/logger/winston.js');
+
+// export const deleteUser = Router();
+const deleteUser = express.Router();
 
 deleteUser.delete(
   '/',
@@ -69,3 +75,5 @@ deleteUser.delete(
     return true;
   },
 );
+
+module.exports = deleteUser;

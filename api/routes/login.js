@@ -1,16 +1,25 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
-import { Router } from 'express';
-import { body, validationResult } from 'express-validator';
-import { UserModel } from '../models/User.js';
-import hashPkg from '../utils/crypt/compare.js';
-import jwtPkg from '../utils/jwt/sign.js';
-import logger from '../utils/logger/winston.js';
+// import { Router } from 'express';
+// import { body, validationResult } from 'express-validator';
+// import { UserModel } from '../models/User.js';
+// import hashPkg from '../utils/crypt/compare.js';
+// import jwtPkg from '../utils/jwt/sign.js';
+// import logger from '../utils/logger/winston.js';
+
+// REQUIRE
+const express = require('express');
+const { body, validationResult } = require('express-validator');
+const { UserModel } = require('../models/User.js');
+const hashPkg = require('../utils/crypt/compare.js');
+const jwtPkg = require('../utils/jwt/sign.js');
+const logger = require('../utils/logger/winston.js');
 
 const compararHash = hashPkg;
 const jwtSign = jwtPkg;
 
-export const login = Router();
+// export const login = Router();
+const login = express.Router();
 
 login.post(
   '/',
@@ -57,3 +66,5 @@ login.post(
     }
   },
 );
+
+module.exports = login;

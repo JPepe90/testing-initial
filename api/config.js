@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import 'dotenv/config';
+// import 'dotenv/config';
+require('dotenv').config();
 
 const config = {
   mongo: {
@@ -11,4 +12,5 @@ const config = {
   },
 };
 
-export default config;
+// export default config;
+module.exports = config;

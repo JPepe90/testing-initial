@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Backend de nuestra aplicación que expone API endpoints",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },

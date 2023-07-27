@@ -1,6 +1,8 @@
-import Mongoose from 'mongoose';
+// import Mongoose from 'mongoose';
+const Mongoose = require('mongoose');
 
-export const ProfileSchema = new Mongoose.Schema(
+// export const ProfileSchema = new Mongoose.Schema(
+const ProfileSchema = new Mongoose.Schema(
   {
     username: {
       type: String,
@@ -24,4 +26,10 @@ export const ProfileSchema = new Mongoose.Schema(
   { timestamps: true },
 );
 
-export const ProfileModel = Mongoose.model('profile', ProfileSchema);
+// export const ProfileModel = Mongoose.model('profile', ProfileSchema);
+const ProfileModel = Mongoose.model('profile', ProfileSchema);
+
+module.exports = {
+  ProfileSchema,
+  ProfileModel,
+};

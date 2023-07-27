@@ -1,15 +1,23 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable max-len */
-import { Router } from 'express';
-import {
-  body, check, header, validationResult,
-} from 'express-validator';
-import { UserModel } from '../../models/User.js';
-import { profileService } from '../../services/profiles.js';
-import logger from '../../utils/logger/winston.js';
+// import { Router } from 'express';
+// import {
+//   body, check, header, validationResult,
+// } from 'express-validator';
+// import { UserModel } from '../../models/User.js';
+// import { profileService } from '../../services/profiles.js';
+// import logger from '../../utils/logger/winston.js';
 
-export const updateUser = Router();
+// REQUIRE
+const express = require('express');
+const { body, check, header, validationResult } = require('express-validator');
+const { UserModel } = require('../../models/User.js');
+const profileService = require('../../services/profiles.js');
+const logger = require('../../utils/logger/winston.js');
+
+// export const updateUser = Router();
+const updateUser = express.Router();
 
 updateUser.put(
   '/',
@@ -84,3 +92,5 @@ updateUser.put(
     }
   },
 );
+
+module.exports = updateUser;

@@ -1,15 +1,24 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
-import { Router } from 'express';
-import { body, check, validationResult } from 'express-validator';
-import { UserModel } from '../models/User.js';
-import { ProfileModel } from '../models/Profile.js';
-import pkg from '../utils/crypt/hash.js';
-import logger from '../utils/logger/winston.js';
+// import { Router } from 'express';
+// import { body, check, validationResult } from 'express-validator';
+// import { UserModel } from '../models/User.js';
+// import { ProfileModel } from '../models/Profile.js';
+// import pkg from '../utils/crypt/hash.js';
+// import logger from '../utils/logger/winston.js';
+
+// REQUIRE
+const express = require('express');
+const { body, check, validationResult } = require('express-validator');
+const { UserModel } = require('../models/User.js');
+const { ProfileModel } = require('../models/Profile.js');
+const pkg = require('../utils/crypt/hash.js');
+const logger = require('../utils/logger/winston.js');
 
 const encriptarPw = pkg;
 
-export const signUp = Router();
+// export const signUp = Router();
+const signUp = express.Router();
 
 signUp.post(
   '/',
@@ -53,3 +62,5 @@ signUp.post(
     }
   },
 );
+
+module.exports = signUp;
