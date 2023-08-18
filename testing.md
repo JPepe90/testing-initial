@@ -243,5 +243,9 @@ nos devuelve un reporte en formato html con el listado de lo que no tiene covert
 
 ### Integration Test
 
-Utilizamos la herramienta SUPERTEST
+Utilizamos la herramienta SUPERTEST. Toda la documentacion relacionada esta en la carpeta e2e dentro de api.
+
+### UI Test
+
+Para estas pruebas integrales usaremos playwright.
 

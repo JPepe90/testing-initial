@@ -12,7 +12,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./api
+    working-directory: ./
 
 jobs:
   unit-test:
