@@ -10,7 +10,7 @@ on:
       - "./api/**"
       - ".github/workflows/api-ci.yaml"
 
-default:
+defaults:
   run:
     working-directory: ./api
 
