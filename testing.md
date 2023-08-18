@@ -241,4 +241,7 @@ nos devuelve un reporte en formato html con el listado de lo que no tiene covert
 
 - Mocks: Stubs + Spies, a veces pueden estar pre-programados. Por ejemplo en una llamada a 3ro se usa una llamada mockeada.
 
+### Integration Test
+
+Utilizamos la herramienta SUPERTEST
 

@@ -16,15 +16,16 @@ if (!url) {
 
 // export const connect = async () => {
 const connect = async () => {
+  await Mongoose.set('strictQuery', true);
   await Mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    server: {
-      socketOptions: {
-        socketTimeoutMS: 0,
-        connectionTimeout: 0,
-      },
-    },
+    // server: {
+    //   socketOptions: {
+    //     socketTimeoutMS: 0,
+    //     connectionTimeout: 0,
+    //   },
+    // },
   });
 
   logger.info({ message: '[db] Connected' });

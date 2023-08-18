@@ -1,77 +1,7 @@
-const profileService = require('./profiles');
-const { ProfileModel } = require('../models/Profile');
-const mockingoose = require('mockingoose');
+const profileService = require('../../services/profiles');
+const { generateManyProfiles } = require('../mocks-fakes/profiles.fake');
 
-const fakeProfiles = [
-  {
-    _id: 1,
-    username: 'jjpepe',
-    name: 'javier pepe',
-    img: 'https://jp.jpg',
-  },
-  {
-    _id: 2,
-    username: 'pattto',
-    name: 'patricio pepe',
-    img: 'https://ptp.jpg',
-  },
-  {
-    _id: 3,
-    username: 'ferEsp',
-    name: 'fernando espinoza',
-    img: 'https://ferEspinoza.png',
-  },
-  {
-    _id: 4,
-    username: 'mariaSantos',
-    name: 'Maria Regina Santos',
-    img: 'https://www.photosfb/mariaregina.jpg',
-  },
-  {
-    _id: 5,
-    username: 'GusLOP',
-    name: 'gustavo lopez',
-    img: 'https://gustavo-lopez.png',
-  },
-];
-
-const spyGetAll = jest.fn();
-
-// MOCKS/STUBS (mockingoose)
-const stubs = {
-  // getAll: () => mockingoose(ProfileModel).toReturn(fakeProfiles, 'find'),
-  getAll: () => mockingoose(ProfileModel).toReturn(spyGetAll, 'find'),
-  get: async (userName) => {
-    const usr = fakeProfiles.find((item) => item.username === userName);
-    // return mockingoose(ProfileModel).toReturn(usr, 'findOne');
-    return mockingoose(ProfileModel).toReturn(spyGetAll, 'findOne');
-  },
-  delete: (userName) => {
-    const userIndex = fakeProfiles.findIndex((item) => item.username === userName);
-    const data = fakeProfiles.splice(userIndex, 1);
-    return mockingoose(ProfileModel).toReturn(data, 'deleteOne');
-  },
-  deleteFalse: () => mockingoose(ProfileModel).toReturn([], 'deleteOne'),
-  update: (userName, data) => {
-    const userIndex = fakeProfiles.findIndex((item) => item.username === userName);
-    const updtUsr = {
-      ...fakeProfiles[userIndex],
-      ...data,
-    };
-    mockingoose(ProfileModel).toReturn(updtUsr, 'findOneAndUpdate');
-  },
-};
-
-// jest.mock('../models/Profile', () => jest.fn().mockImplementation(() => stubs));
-
-// FUNCTIONS
-function findUsr(usr) {
-  const user = fakeProfiles.find((item) => item.username === usr);
-
-  if (!user) return false;
-
-  return user;
-}
+const { spyGetAll, stubs, fakeProfiles } = require('../mocks-fakes/mocks');
 
 // TESTS
 describe('Test for Profile Service', () => {
@@ -79,18 +9,27 @@ describe('Test for Profile Service', () => {
     jest.clearAllMocks();
   });
 
+  // FUNCTIONS
+  function findUsr(usr) {
+    const user = fakeProfiles.find((item) => item.username === usr);
+
+    if (!user) return false;
+
+    return user;
+  }
+
   describe('Test getAll', () => {
     test('Return all users list', async () => {
       // Arrange
+      const fProf = generateManyProfiles(20);
       stubs.getAll(); // STUB o MOCK
-      spyGetAll.mockResolvedValue(fakeProfiles); // SPY
+      spyGetAll.mockResolvedValue(fProf); // SPY
       // Act
       const users = await profileService.getAll();
       // Assert
-      expect(users.length).toEqual(5);
+      expect(users.length).toEqual(fProf.length);
       expect(spyGetAll).toHaveBeenCalled();
       expect(spyGetAll).toHaveBeenCalledTimes(1);
-      // expect(spyGetAll).toHaveBeenCalledWith({}); // NOT WORKING
     });
   }, 10000);
 
@@ -110,9 +49,6 @@ describe('Test for Profile Service', () => {
       delete data._id;
       // Assert
       expect(verifier).toEqual(data);
-      expect(spyGetAll).toHaveBeenCalled();
-      expect(spyGetAll).toHaveBeenCalledTimes(1);
-      // expect(spyGetAll).toHaveBeenCalledWith('profiles', { username: 'jjpepe' }); // NOT WORKING
     });
 
     test('Resolve not found', async () => {

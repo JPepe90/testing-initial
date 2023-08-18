@@ -1,0 +1,45 @@
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T00:59:56.065Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:41:53.483Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:43:11.589Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:49:13.024Z'
+}
+{
+  message: '[db connection error] connect ETIMEDOUT 172.25.0.2:27020',
+  level: 'error',
+  timestamp: '2023-08-11T01:50:38.960Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:52:11.677Z'
+}
+{
+  message: '[db connection error] getaddrinfo ENOTFOUND mongo',
+  level: 'error',
+  timestamp: '2023-08-11T02:23:55.719Z'
+}
+{
+  message: '[db connection error] getaddrinfo ENOTFOUND mongo',
+  level: 'error',
+  timestamp: '2023-08-11T02:24:53.232Z'
+}
+{
+  message: '[db connection error] Authentication failed.',
+  level: 'error',
+  timestamp: '2023-08-11T02:42:32.693Z'
+}

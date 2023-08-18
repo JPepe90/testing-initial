@@ -718,3 +718,98 @@
   level: 'info',
   timestamp: '2023-07-24T18:08:58.489Z'
 }
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:35:09.551Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:36:49.898Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:36:55.585Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:36:57.411Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:37:40.580Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:37:42.081Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:37:56.260Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:37:57.960Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:38:09.551Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:38:11.123Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:40:02.754Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:40:04.408Z'
+}
+{
+  message: "[view all Profile]: TypeError: Cannot read properties of undefined (reading 'getAll')",
+  level: 'info',
+  timestamp: '2023-08-04T14:40:06.318Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:43:35.402Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:43:37.108Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T14:44:10.009Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T14:44:11.665Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T15:58:40.506Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T15:58:42.202Z'
+}

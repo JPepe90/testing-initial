@@ -7,7 +7,7 @@
 
 // REQUIRE
 const express = require('express');
-const { profileService } = require('../services/profiles.js');
+const profileService = require('../services/profiles');
 const logger = require('../utils/logger/winston.js');
 
 // export const profiles = Router();
@@ -19,9 +19,7 @@ profiles.get(
     try {
       await profileService.getAll()
         .then((data) => {
-          return response.status(200).json({
-            data,
-          });
+          return response.status(200).json(data);
         })
         .catch((err) => {
           logger.info({ message: `[allProfilesRouter] Hubo un error al buscar todos los Profiles de usuario. Detalle: ${err}` });

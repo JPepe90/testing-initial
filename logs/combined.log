@@ -773,3 +773,313 @@
   level: 'info',
   timestamp: '2023-07-27T13:49:25.222Z'
 }
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-02T14:17:05.050Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-02T14:17:05.056Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-02T14:17:05.058Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-02T14:20:38.856Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-02T14:20:38.860Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-02T14:20:38.863Z'
+}
+{
+  message: "[view all Profile]: TypeError: Cannot read properties of undefined (reading 'getAll')",
+  level: 'info',
+  timestamp: '2023-08-04T14:24:37.441Z'
+}
+{
+  message: "[view all Profile]: TypeError: Cannot read properties of undefined (reading 'getAll')",
+  level: 'info',
+  timestamp: '2023-08-04T14:25:35.206Z'
+}
+{
+  message: "[view all Profile]: TypeError: Cannot read properties of undefined (reading 'getAll')",
+  level: 'info',
+  timestamp: '2023-08-04T14:31:19.221Z'
+}
+{
+  message: "[view all Profile]: TypeError: Cannot read properties of undefined (reading 'getAll')",
+  level: 'info',
+  timestamp: '2023-08-04T14:38:26.633Z'
+}
+{
+  message: "[view all Profile]: TypeError: Cannot read properties of undefined (reading 'getAll')",
+  level: 'info',
+  timestamp: '2023-08-04T14:39:21.714Z'
+}
+{
+  message: '[server] Connected to port 3000',
+  level: 'info',
+  timestamp: '2023-08-04T16:07:39.187Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T16:15:25.550Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-04T16:17:54.756Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: jjpepe',
+  level: 'info',
+  timestamp: '2023-08-04T17:00:44.333Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:00:44.343Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:00:44.345Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:00:44.354Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: jjpepe',
+  level: 'info',
+  timestamp: '2023-08-04T17:03:31.698Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:03:31.707Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:03:31.710Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:03:31.717Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: jjpepe',
+  level: 'info',
+  timestamp: '2023-08-04T17:05:47.849Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:05:47.858Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:05:47.861Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:05:47.868Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:07:08.405Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:07:08.411Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:07:08.413Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:07:53.300Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:07:53.306Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:07:53.309Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:14:40.405Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:14:40.409Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:14:40.411Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-04T17:15:38.574Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-04T17:15:38.579Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-04T17:15:38.581Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T00:44:58.071Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T00:59:56.065Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:41:53.483Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:43:11.589Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:49:13.024Z'
+}
+{
+  message: '[db connection error] connect ETIMEDOUT 172.25.0.2:27020',
+  level: 'error',
+  timestamp: '2023-08-11T01:50:38.960Z'
+}
+{
+  message: '[db connection error] Server selection timed out after 30000 ms',
+  level: 'error',
+  timestamp: '2023-08-11T01:52:11.677Z'
+}
+{
+  message: '[db connection error] getaddrinfo ENOTFOUND mongo',
+  level: 'error',
+  timestamp: '2023-08-11T02:23:55.719Z'
+}
+{
+  message: '[db connection error] getaddrinfo ENOTFOUND mongo',
+  level: 'error',
+  timestamp: '2023-08-11T02:24:53.232Z'
+}
+{
+  message: '[db connection error] Authentication failed.',
+  level: 'error',
+  timestamp: '2023-08-11T02:42:32.693Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T02:46:51.908Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T02:51:02.393Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T02:54:02.643Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T02:55:09.773Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T02:56:50.331Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T02:57:39.864Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T03:05:53.564Z'
+}
+{
+  message: '[db] Connected',
+  level: 'info',
+  timestamp: '2023-08-11T03:09:46.936Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-18T00:41:28.110Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-18T00:41:28.119Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-18T00:41:28.122Z'
+}
+{
+  message: '[profileService] El servicio de profiles no pudo encontrar al usuario: osvaldoL',
+  level: 'info',
+  timestamp: '2023-08-18T01:04:09.113Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: mariaSantos',
+  level: 'info',
+  timestamp: '2023-08-18T01:04:09.119Z'
+}
+{
+  message: '[profileService] El servicio de actualizacion de profiles actualizo correctamente al usuario: GusLOP',
+  level: 'info',
+  timestamp: '2023-08-18T01:04:09.122Z'
+}

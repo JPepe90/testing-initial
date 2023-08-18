@@ -11,7 +11,9 @@
 
 // REQUIRE
 const express = require('express');
-const { body, check, header, validationResult } = require('express-validator');
+const {
+  body, check, header, validationResult,
+} = require('express-validator');
 const { UserModel } = require('../../models/User.js');
 const profileService = require('../../services/profiles.js');
 const logger = require('../../utils/logger/winston.js');
