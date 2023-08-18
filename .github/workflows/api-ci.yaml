@@ -61,9 +61,7 @@ jobs:
 
     services:
       mongo-e2e:
-        container_name: mongodb
         image: mongo
-        restart: always
         # volumes:
         #   - ./data:/data/db
         ports:
