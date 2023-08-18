@@ -7,8 +7,8 @@
   "scripts": {
     "test": "jest --projects ./api",
     "test:e2e": "jest --config ./api/testing/e2e/jest-e2e.json --forceExit",
-    "lint": "eslint demos/src/**",
-    "lint:fix": "eslint demos/src/** --fix"
+    "lint": "eslint api/**",
+    "lint:fix": "eslint api/** --fix"
   },
   "keywords": [],
   "license": "ISC",

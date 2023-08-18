@@ -37,8 +37,6 @@ describe('Test de profiles', () => {
         .get('/api/v1/profiles/')
         .expect(200)
         .then((data) => {
-          // console.log(data._body);
-
           // Assert
           expect(data._body.length).toEqual(seedData.length);
         });

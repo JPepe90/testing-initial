@@ -15,6 +15,26 @@ defaults:
     working-directory: ./
 
 jobs:
+  # pruebas estaticas
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup NodeJs
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+      - name: Install Dependency
+        shell: bash
+        run: npm ci # Instalacion de dependencias para Countinous Integration
+      - name: Run Static Test
+        shell: bash
+        run: npm run lint
+
+  # unit test
   unit-test:
     runs-on: ubuntu-latest
     steps:
@@ -32,4 +52,33 @@ jobs:
       - name: Run Unit Test
         shell: bash
         run: npm run test
+
+  # e2e test
+  e2e-test:
+    runs-on: ubuntu-latest
+    container:
+      image: node:18
+
+    services:
+      mongo-e2e:
+        container_name: mongodb
+        image: mongo
+        restart: always
+        # volumes:
+        #   - ./data:/data/db
+        ports:
+          - 27017:27017
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Dependency
+        shell: bash
+        run: npm ci # Instalacion de dependencias para Countinous Integration
+      - name: Run e2e Test
+        shell: bash
+        run: npm run test:e2e
+        env:
+          E2E_DB_URL: "mongodb://mongo-e2e:27017/demo?retryWrites=true&writeConcern=majority"
+          MONGO_DB_NAME: demo
 
